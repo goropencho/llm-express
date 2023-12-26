@@ -11,7 +11,7 @@ const uploadFile = async (req, res) => {
 
     await sampleFile.mv("." + "/uploads/" + sampleFile.name)
 
-    await embeddingFile(sampleFile.name, "./db/").catch(err => {
+    await embeddingFile(sampleFile.name, "./db/cohere").catch(err => {
         console.log(err)
         return res.status(500).send(err);
     })
