@@ -11,9 +11,6 @@ importers:
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.21
-      '@types/node':
-        specifier: ^20.10.5
-        version: 20.10.5
       cohere-ai:
         specifier: ^6.2.2
         version: 6.2.2
@@ -41,19 +38,22 @@ importers:
       pdf-parse:
         specifier: ^1.1.1
         version: 1.1.1
+    devDependencies:
+      '@types/express-fileupload':
+        specifier: ^1.4.4
+        version: 1.4.4
+      '@types/node':
+        specifier: ^20.10.5
+        version: 20.10.5
+      nodemon:
+        specifier: ^3.0.2
+        version: 3.0.2
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@20.10.5)(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
-    devDependencies:
-      '@types/express-fileupload':
-        specifier: ^1.4.4
-        version: 1.4.4
-      nodemon:
-        specifier: ^3.0.2
-        version: 3.0.2
 
 packages:
 
